@@ -10,9 +10,7 @@ const routes: Routes = [
       {
         path: 'listing',
         loadChildren: () =>
-          import('../screens/listing/listing.module').then(
-            (m) => m.ListingPageModule
-          ),
+          import('../screens/listing/listing.module').then((m) => m.ListingPageModule),
       },
       {
         path: 'cart',
@@ -23,6 +21,11 @@ const routes: Routes = [
         path: '',
         redirectTo: 'listing',
         pathMatch: 'full',
+      },
+      {
+        path: 'location',
+        loadChildren: () =>
+          import('../screens/location/location.module').then((m) => m.LocationPageModule),
       },
     ],
   },

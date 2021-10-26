@@ -9,27 +9,24 @@ export class FoodService {
     return [
       {
         id: 1,
-        title: 'Sea Food',
-        price: 700,
-        image: 'assets/images/foods/seafood-dishes.png',
-        description:
-          'In addition to the freshet seafood, there are corn, cilantro, and tomatoes: their first became mayonnise, the second - cream, the third - spice tomato water.',
+        title: 'Burger',
+        price: 200,
+        image: 'assets/images/foods/burger.png',
+        description:'In addition to the freshet seafood, there are corn, cilantro, and tomatoes: their first became mayonnise, the second - cream, the third - spice tomato water.',
       },
       {
         id: 2,
-        title: 'Hamburger',
-        price: 200,
-        image: 'assets/images/foods/hamburger.png',
-        description:
-          'In addition to the freshet seafood, there are corn, cilantro, and tomatoes: their first became mayonnise, the second - cream, the third - spice tomato water.',
+        title: 'Briani',
+        price: 360,
+        image: 'assets/images/foods/briani.png',
+        description:'Classic Mauritian Briani available in different with different add-ons and flavours such as fish and chicken. As the legend says, One plate of Briani is never enough! ',
       },
       {
         id: 3,
-        title: 'Mussels',
-        price: 560,
-        image: 'assets/images/foods/mussel.png',
-        description:
-          'In addition to the freshet seafood, there are corn, cilantro, and tomatoes: their first became mayonnise, the second - cream, the third - spice tomato water.',
+        title: 'Sea Food',
+        price: 700,
+        image: 'assets/images/foods/seafood-dishes.png',
+        description:'In addition to the freshet seafood, there are corn, cilantro, and tomatoes: their first became mayonnise, the second - cream, the third - spice tomato water.',
       },
       {
         id: 4,
@@ -37,7 +34,7 @@ export class FoodService {
         price: 500,
         image: 'assets/images/foods/pizza.png',
         description:
-          'In addition to the freshet seafood, there are corn, cilantro, and tomatoes: their first became mayonnise, the second - cream, the third - spice tomato water.',
+          'In addition to the freshet seafood, there are prawns, chicken, mayo, corn, cilantro, and tomatoes: their first became mayonnise, the second - cream, the third - spice tomato water.',
       },
       {
         id: 5,
@@ -49,11 +46,11 @@ export class FoodService {
       },
       {
         id: 6,
-        title: 'Tambi',
-        price: 900,
-        image: 'assets/images/foods/tambi.png',
+        title: 'Wrap and Chips',
+        price: 400,
+        image: 'assets/images/foods/wrap.png',
         description:
-          'In addition to the freshet seafood, there are corn, cilantro, and tomatoes: their first became mayonnise, the second - cream, the third - spice tomato water.',
+          'In addition to the chicken mayo wrap, there are corn, spicy chips, and tomatoes: their first became mayonnise, the second - cream, the third - spice tomato water.',
       },
     ];
   }

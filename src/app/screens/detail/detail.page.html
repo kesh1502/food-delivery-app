@@ -5,11 +5,6 @@
         <ion-icon slot="icon-only" color='light' name="arrow-back"></ion-icon>
       </ion-button>
     </ion-buttons>
-    <ion-buttons>
-      <ion-button>
-        <ion-icon slot="icon-only" color='light' name="heart-outline"></ion-icon>
-      </ion-button>
-    </ion-buttons>
   </div>
 
   <!-- FOOD DETAIL CARD -->
@@ -21,7 +16,7 @@
     <div class="card-content">
       <div class="card-title">
         <h1 class="ion-no-margin">{{food.title}}</h1>
-        <p class="ion-no-margin"><sup>$</sup> {{food.price | number: '1.2'}}</p>
+        <p class="ion-no-margin"><sup>Rs</sup> {{food.price | number: '1.2'}}</p>
       </div>
     </div>
 
