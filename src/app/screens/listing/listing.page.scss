@@ -1,11 +1,12 @@
 ion-content {
   --padding-start: 2rem;
   --padding-end: 2rem;
+  --background-color: #123456;
 
 
   .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
     margin-top: 3rem;
@@ -16,8 +17,9 @@ ion-content {
     h1 {
       font-size: 3rem;
       font-weight: 600;
-      color: #515151;
+      color: #123456;
       margin: 0;
+      justify-content: center;
     }
 
     

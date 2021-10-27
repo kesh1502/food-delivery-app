@@ -24,7 +24,6 @@ export class LocationPage{
       latitude: "-20.06822", 
       longitude: "57.57185"
     }
-
   ]
 
   constructor() { }
@@ -61,7 +60,7 @@ export class LocationPage{
        
     marker.addListener('click',() =>{
      this.closeAllInfoWindows();
-     infoWindow.open(this.map,marker);
+     infoWindow.open(this.map, marker);
     });
     this.infoWindows.push(infoWindow);
   }
@@ -71,8 +70,6 @@ export class LocationPage{
       window.close();
     }
   }
-
-
 
   showMap(){
   
@@ -85,9 +82,5 @@ export class LocationPage{
     this.map = new google.maps.Map(this.mapRef.nativeElement, options);
     this.addMarkersToMap(this.markers);
   }
-
-  
-
- 
 
 }

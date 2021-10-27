@@ -23,6 +23,6 @@
 
   <!-- CHECKOUT BUTTON -->
   <app-button *ngIf="(cartItems$|async).length">
-    Total: <span><sup>$</sup>{{totalAmount$|async|number:'1.2'}}</span>
+    Total: <span><sup>Rs</sup>{{totalAmount$|async|number:'1.2'}}</span>
   </app-button>
 </ion-content>
